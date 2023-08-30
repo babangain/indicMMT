@@ -9,11 +9,13 @@ The following codebase is adapted from multiple libraries and data sources that 
 Please refer to their terms and conditions and copyrights before usage.
 
 ## Installation
+```
 cd codes
 pip install -e .
 cd ..
-
+```
 ## Download the files
+```
 mkdir -p datasets/multimodal/hi
 cd datasets/multimodal/hi
 curl --remote-name-all https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3267{/README.txt,/hindi-visual-genome-train.txt.gz,/hindi-visual-genome-dev.txt.gz,/hindi-visual-genome-test.txt.gz,/hindi-visual-genome-challenge-test-set.txt.gz,/hindi-visual-genome-11.zip}
@@ -33,12 +35,12 @@ cd ..
 cd ../codes
 wget https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/en2indic.zip
 unzip en2indic.zip
-
+```
 Use get_img_feat.py and get_img_feat_full.py to extract ViT features
-
+```
 bash finetune_preprocess.sh
 bash finetune_mmtrans.sh
 bash finetune.sh
-
+```
 Use joint_translate.sh to generate and score on the test set. 
 Update the file paths accordingly
