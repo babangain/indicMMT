@@ -1,0 +1,18 @@
+Namespace(aim_repo=None, aim_run_hash=None, align_suffix=None, alignfile=None, all_gather_list_size=16384, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, azureml_logging=False, bf16=False, bpe=None, challengepref='../datasets/more_noise/final/challenge', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='../datasets/more_noise/final_bin', dict_only=False, empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_file=None, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, on_cpu_convert_precision=False, only_source=False, optimizer=None, padding_factor=8, plasma_path='/tmp/plasma', profile=False, quantization_config_path=None, reset_logging=False, scoring='bleu', seed=1, source_lang='SRC', srcdict='en-indic/final_bin/dict.SRC.txt', suppress_crashes=False, target_lang='TGT', task='translation', tensorboard_logdir=None, testpref='../datasets/more_noise/final/test', tgtdict='en-indic/final_bin/dict.TGT.txt', threshold_loss_scale=None, thresholdsrc=5, thresholdtgt=5, tokenizer=None, tpu=False, trainpref='../datasets/more_noise/final/train', use_plasma_view=False, user_dir=None, validpref='../datasets/more_noise/final/valid', wandb_project=None, workers=40)
+[SRC] Dictionary: 32104 types
+[SRC] ../datasets/more_noise/final/train.SRC: 86790 sents, 813507 tokens, 0.000369% replaced (by <unk>)
+[SRC] Dictionary: 32104 types
+[SRC] ../datasets/more_noise/final/valid.SRC: 2994 sents, 29673 tokens, 0.0% replaced (by <unk>)
+[SRC] Dictionary: 32104 types
+[SRC] ../datasets/more_noise/final/test.SRC: 4785 sents, 47502 tokens, 0.0% replaced (by <unk>)
+[SRC] Dictionary: 32104 types
+[SRC] ../datasets/more_noise/final/challenge.SRC: 4200 sents, 48018 tokens, 0.0% replaced (by <unk>)
+[TGT] Dictionary: 35888 types
+[TGT] ../datasets/more_noise/final/train.TGT: 86790 sents, 686440 tokens, 0.0% replaced (by <unk>)
+[TGT] Dictionary: 35888 types
+[TGT] ../datasets/more_noise/final/valid.TGT: 2994 sents, 23499 tokens, 0.0% replaced (by <unk>)
+[TGT] Dictionary: 35888 types
+[TGT] ../datasets/more_noise/final/test.TGT: 4785 sents, 37144 tokens, 0.0% replaced (by <unk>)
+[TGT] Dictionary: 35888 types
+[TGT] ../datasets/more_noise/final/challenge.TGT: 4200 sents, 39021 tokens, 0.0% replaced (by <unk>)
+Wrote preprocessed data to ../datasets/more_noise/final_bin
