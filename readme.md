@@ -1,4 +1,4 @@
-The following codebase is adapted from multiple libraries and data sources that includes:
+The following codebase is adapted from multiple libraries and data sources that include:
 
 1. https://github.com/libeineu/fairseq_mmt
 2. https://github.com/AI4Bharat/indicTrans
@@ -43,4 +43,17 @@ bash finetune_mmtrans.sh
 bash finetune.sh
 ```
 Use joint_translate.sh to generate and score on the test set. 
-Update the file paths accordingly
+Update the file paths accordingly.
+
+If you use the code, please cite the following paper
+```
+@misc{gain2023impact,
+      title={Impact of Visual Context on Noisy Multimodal NMT: An Empirical Study for English to Indian Languages}, 
+      author={Baban Gain and Dibyanayan Bandyopadhyay and Samrat Mukherjee and Chandranath Adak and Asif Ekbal},
+      year={2023},
+      eprint={2308.16075},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+Also cite other relevant repos on top of the readme file
